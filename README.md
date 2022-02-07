@@ -7,7 +7,7 @@ Positioning a building mass on topography while minimizing the necessary cut and
 ## Multiple Building Case (10 building sequence)
 
 
-## Action Space
+## Action space
 The agent controls the building location through x, y coordinates, anf the angle of rotation theta. This is done through a 3 dimensional discrete action space.
 The action space is transformed to a single dimensional large discrete action space as well. Training was performed on both representations of the action space. 
 
@@ -56,7 +56,7 @@ if all_required_inputs(ghenv.Component):
         # compensate for self-intersection
         reward += 5
 ```
-### Terminal State Condition
+### Terminal state condition
 The terminal state is reached after 10 buildings are placed. 
 
 ## Acknowledgements
