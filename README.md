@@ -2,7 +2,9 @@
 Positioning a building mass on topography while minimizing the necessary cut and fill excavation volume using actor critic methods.
 
 ## Single Building Case
-![](images/cutnfill_single.gif)
+<p align="center">
+  <img src="images/cutnfill_single.gif" height="550"/>
+</p>
 
 ## Multiple Building Case (10 building sequence)
 
