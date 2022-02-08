@@ -7,7 +7,9 @@ Positioning a building mass on topography while minimizing the necessary cut and
 </p>
 
 ## Multiple Building Case (10 building sequence)
-
+<p align="center">
+  <img src="images/cutnfill_multi.gif" height="550"/>
+</p>
 
 ## Action space
 The agent controls the building location through x, y coordinates, anf the angle of rotation theta. This is done through a 3 dimensional discrete action space.
