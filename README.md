@@ -12,7 +12,7 @@ Positioning a building mass on topography while minimizing the necessary cut and
 </p>
 
 ## Action space
-The agent controls the building location through x, y coordinates, anf the angle of rotation theta. This is done through a 3 dimensional discrete action space.
+The agent controls the building location through x, y coordinates, and the angle of rotation theta. This is done through a 3 dimensional discrete action space.
 The action space is transformed to a single dimensional large discrete action space as well. Training was performed on both representations of the action space. 
 
 ```python
